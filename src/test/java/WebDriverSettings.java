@@ -12,8 +12,9 @@ public class WebDriverSettings {
     @Before
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "D:\\Android_Projects\\CRM_Studio_Test\\src\\resources\\chromedriver.exe");
-        //System.setProperty("webdriver.gecko.driver", "D:\\Android_Projects\\CRM_Studio_Test\\src\\resources\\geckodriver.exe");
         driver = new ChromeDriver();
+
+        //System.setProperty("webdriver.gecko.driver", "D:\\Android_Projects\\CRM_Studio_Test\\src\\resources\\geckodriver.exe");
         //driver = new FirefoxDriver();
         System.out.println("Start Test!");
         driver.get("https://demo.crm.studio");
