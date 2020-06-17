@@ -28,5 +28,7 @@ public class Main extends  WebDriverSettings{
         driver.findElement(By.id("SAVE")).click();
 
         driver.findElement(By.xpath("//a[@id='subpanel_title_activities']//div[@class='col-xs-10 col-sm-11 col-md-11']//div")).click();
+
+        //hello
     }
 }
