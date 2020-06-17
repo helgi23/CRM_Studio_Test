@@ -40,5 +40,6 @@ public class Main extends  WebDriverSettings{
         sleep();
 
         driver.findElement(By.xpath("//input[@id='name']")).sendKeys("Oleg Ignatenko Test Task");
+        driver.findElement(By.xpath("//*[@id=\"Tasks_subpanel_save_button\"]")).click();
     }
 }
